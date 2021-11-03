@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: GoldZone-Setup-1.0.0.exe
+    sha512: MQbKwsFrL/mhkDsSjoQSQ/B9TjcAL0FqioLvJwzIZ+7PdHF+NzUTboCjCSNMzcHXZR5WTPRH2SJQtJwUg9pW+g==
+    size: 196271105
+path: GoldZone-Setup-1.0.0.exe
+sha512: MQbKwsFrL/mhkDsSjoQSQ/B9TjcAL0FqioLvJwzIZ+7PdHF+NzUTboCjCSNMzcHXZR5WTPRH2SJQtJwUg9pW+g==
+releaseDate: '2021-10-11T17:26:55.947Z'

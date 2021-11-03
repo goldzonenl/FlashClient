@@ -1,0 +1,36 @@
+directories:
+  output: dist
+  buildResources: build
+appId: nl.GoldZone.GoldZoneApp
+extraResources:
+  - from: ./plugins/
+    to: ../plugins
+mac:
+  category: public.games.social-networking
+  darkModeSupport: true
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements-mac.plist
+  entitlementsInherit: build/entitlements-mac.plist
+dmg:
+  iconSize: 160
+  contents:
+    - x: 180
+      'y': 170
+    - x: 480
+      'y': 170
+      type: link
+      path: /Applications
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Network;Chat
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+files: []
+electronVersion: 7.3.3
